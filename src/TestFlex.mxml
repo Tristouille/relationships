@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+<mx:Script>
+	<![CDATA[
+		import mx.controls.Alert;
+		
+		private function hello():void
+		{
+			Alert.show("Hello !!!" + textInp.text);
+		}
+	]]>
+</mx:Script>
+	<mx:Button x="126" y="116" label="Button" click="hello()"/>
+	<mx:ComboBox x="223" y="99"></mx:ComboBox>
+	<mx:DateChooser x="73" y="317"/>
+	<mx:TextInput x="126" y="37" id="textInp"/>
+	<mx:Accordion x="475" y="194" width="200" height="200">
+		<mx:Canvas label="Accordion Pane 1" width="100%" height="100%">
+		</mx:Canvas>
+		<mx:Canvas label="ggg" width="100%" height="100%">
+		</mx:Canvas>
+	</mx:Accordion>
+	<mx:TabNavigator x="126" y="172" width="200" height="200">
+		<mx:Canvas label="Tab 1" width="100%" height="100%">
+		</mx:Canvas>
+		<mx:Canvas label="tab" width="100%" height="100%">
+		</mx:Canvas>
+	</mx:TabNavigator>
+	
+</mx:Application>
