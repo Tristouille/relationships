@@ -6,7 +6,7 @@
 		
 		private function hello():void
 		{
-			Alert.show("toto !!!" + textInp.text);
+			Alert.show("tata !!!" + textInp.text);
 		}
 	]]>
 </mx:Script>
