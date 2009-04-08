@@ -276,7 +276,7 @@
 				myELCs.elselector.changeEdgeLabelRenderer();
 				
 				myDegreeOS.updateMaxVisDist();
-				
+				/*quéquette*/
 				/* the following kicks it off .... */
 				vgraph.draw();
 			}
